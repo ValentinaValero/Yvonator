@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../IMG/background.png);
+    font-family: 'Irish Grover', cursive;
+    background-size: cover;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    
+}
+
+.container img{
+    width: 30vw;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h1{
+    color: #d4b348;
+    -webkit-text-stroke: 5px #000;
+    paint-order: stroke fill;
+    font-size: 8rem;
+    margin: 0;
+    padding: 0;
+    text-shadow: 3px 3px 0 #a52222,
+                 6px 6px 0 #000;
+}
+
+.info p{
+    color: #d4b348;
+    -webkit-text-stroke: 3px #000;
+    paint-order: stroke fill;
+    text-shadow: 3px 3px 0 #a52222,
+                 5px 5px 0 #000;
+    font-size: 2.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.botao button{
+    background-color: #28c041;
+    font-family: 'Irish Grover', cursive;
+    border: #8948d4;
+    color: white;
+    -webkit-text-stroke: 5px #083315;
+    paint-order: stroke fill;
+   
+    margin-top: 5vh;
+    border-radius: 20px;
+    font-size: 2rem;
+    width: 30vw;
+    height: 15vh;
+    transition: 0.5s;
+}
+
+.botao button:hover{
+    background: #1b862d;
+    cursor: pointer;
+}
